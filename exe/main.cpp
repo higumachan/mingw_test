@@ -1,8 +1,8 @@
-#include <iostream>
+#include <stdio.h>
+#include "../calc/calc.hpp"
 
-int main(int argc, char const* argv[])
+int main(void)
 {
-  std::cout << "Hello world" << std::endl;
-  
+  printf("%d\n", add(1, 2));
   return 0;
 }
